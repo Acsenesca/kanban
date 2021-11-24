@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461307F5274DE0220093B213 /* KanbanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461307F3274DE0220093B213 /* KanbanCell.swift */; };
+		461307F6274DE0220093B213 /* KanbanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 461307F4274DE0220093B213 /* KanbanCell.xib */; };
+		461307FD274DE80F0093B213 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461307FB274DE80F0093B213 /* DetailCell.swift */; };
+		461307FE274DE80F0093B213 /* DetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 461307FC274DE80F0093B213 /* DetailCell.xib */; };
 		4635A5E0274D0301001DA70C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635A5DF274D0301001DA70C /* AppDelegate.swift */; };
 		4635A5E2274D0301001DA70C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635A5E1274D0301001DA70C /* SceneDelegate.swift */; };
-		4635A5E4274D0301001DA70C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635A5E3274D0301001DA70C /* ViewController.swift */; };
-		4635A5E7274D0301001DA70C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4635A5E5274D0301001DA70C /* Main.storyboard */; };
 		4635A5E9274D0303001DA70C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4635A5E8274D0303001DA70C /* Assets.xcassets */; };
 		4635A5EC274D0303001DA70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4635A5EA274D0303001DA70C /* LaunchScreen.storyboard */; };
+		46ECC0B5274D0BF600826CE5 /* Kanban.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ECC0B4274D0BF600826CE5 /* Kanban.swift */; };
+		46ECC0B9274D0F6A00826CE5 /* KanbanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ECC0B8274D0F6A00826CE5 /* KanbanController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		461307F3274DE0220093B213 /* KanbanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanCell.swift; sourceTree = "<group>"; };
+		461307F4274DE0220093B213 /* KanbanCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KanbanCell.xib; sourceTree = "<group>"; };
+		461307FB274DE80F0093B213 /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		461307FC274DE80F0093B213 /* DetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCell.xib; sourceTree = "<group>"; };
 		4635A5DC274D0301001DA70C /* kanban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kanban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4635A5DF274D0301001DA70C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4635A5E1274D0301001DA70C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4635A5E3274D0301001DA70C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4635A5E6274D0301001DA70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4635A5E8274D0303001DA70C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4635A5EB274D0303001DA70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4635A5ED274D0303001DA70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46ECC0B4274D0BF600826CE5 /* Kanban.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanban.swift; sourceTree = "<group>"; };
+		46ECC0B8274D0F6A00826CE5 /* KanbanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				4635A5DF274D0301001DA70C /* AppDelegate.swift */,
 				4635A5E1274D0301001DA70C /* SceneDelegate.swift */,
-				4635A5E3274D0301001DA70C /* ViewController.swift */,
-				4635A5E5274D0301001DA70C /* Main.storyboard */,
 				4635A5E8274D0303001DA70C /* Assets.xcassets */,
 				4635A5EA274D0303001DA70C /* LaunchScreen.storyboard */,
 				4635A5ED274D0303001DA70C /* Info.plist */,
+				46ECC0B4274D0BF600826CE5 /* Kanban.swift */,
+				46ECC0B8274D0F6A00826CE5 /* KanbanController.swift */,
+				461307F3274DE0220093B213 /* KanbanCell.swift */,
+				461307F4274DE0220093B213 /* KanbanCell.xib */,
+				461307FB274DE80F0093B213 /* DetailCell.swift */,
+				461307FC274DE80F0093B213 /* DetailCell.xib */,
 			);
 			path = kanban;
 			sourceTree = "<group>";
@@ -127,7 +139,8 @@
 			files = (
 				4635A5EC274D0303001DA70C /* LaunchScreen.storyboard in Resources */,
 				4635A5E9274D0303001DA70C /* Assets.xcassets in Resources */,
-				4635A5E7274D0301001DA70C /* Main.storyboard in Resources */,
+				461307FE274DE80F0093B213 /* DetailCell.xib in Resources */,
+				461307F6274DE0220093B213 /* KanbanCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4635A5E4274D0301001DA70C /* ViewController.swift in Sources */,
 				4635A5E0274D0301001DA70C /* AppDelegate.swift in Sources */,
+				46ECC0B5274D0BF600826CE5 /* Kanban.swift in Sources */,
+				461307FD274DE80F0093B213 /* DetailCell.swift in Sources */,
+				46ECC0B9274D0F6A00826CE5 /* KanbanController.swift in Sources */,
+				461307F5274DE0220093B213 /* KanbanCell.swift in Sources */,
 				4635A5E2274D0301001DA70C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +163,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4635A5E5274D0301001DA70C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4635A5E6274D0301001DA70C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4635A5EA274D0303001DA70C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,9 +302,10 @@
 				INFOPLIST_FILE = kanban/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +315,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,9 +331,10 @@
 				INFOPLIST_FILE = kanban/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +344,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

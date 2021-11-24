@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="KanbanCell" id="gTV-IL-0wX" customClass="KanbanCell" customModule="kanban" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="540"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="332" height="540"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oel-tQ-6pQ">
+                        <rect key="frame" x="0.0" y="0.0" width="332" height="540"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Dl-mb-ZD0">
+                                <rect key="frame" x="10" y="10" width="312" height="479"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q68-HV-Nxr">
+                                <rect key="frame" x="10" y="499" width="312" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Add" cornerStyle="small">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="addTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="0kB-JJ-NeA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4Dl-mb-ZD0" secondAttribute="trailing" constant="10" id="5ki-dr-Kcu"/>
+                            <constraint firstItem="Q68-HV-Nxr" firstAttribute="top" secondItem="4Dl-mb-ZD0" secondAttribute="bottom" constant="10" id="GVL-hD-erh"/>
+                            <constraint firstItem="Q68-HV-Nxr" firstAttribute="leading" secondItem="Oel-tQ-6pQ" secondAttribute="leading" constant="10" id="T7y-tu-Fay"/>
+                            <constraint firstAttribute="bottom" secondItem="Q68-HV-Nxr" secondAttribute="bottom" constant="10" id="hml-XM-KKc"/>
+                            <constraint firstItem="4Dl-mb-ZD0" firstAttribute="leading" secondItem="Oel-tQ-6pQ" secondAttribute="leading" constant="10" id="k4T-g9-Yeq"/>
+                            <constraint firstAttribute="trailing" secondItem="Q68-HV-Nxr" secondAttribute="trailing" constant="10" id="xWF-Oq-DJ2"/>
+                            <constraint firstItem="4Dl-mb-ZD0" firstAttribute="top" secondItem="Oel-tQ-6pQ" secondAttribute="top" constant="10" id="yBE-eb-7dQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Oel-tQ-6pQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="74c-Aj-NMr"/>
+                <constraint firstItem="Oel-tQ-6pQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="PeV-Wk-VNf"/>
+                <constraint firstAttribute="trailing" secondItem="Oel-tQ-6pQ" secondAttribute="trailing" id="aZ1-zl-ye6"/>
+                <constraint firstAttribute="bottom" secondItem="Oel-tQ-6pQ" secondAttribute="bottom" id="hl0-MX-bpP"/>
+            </constraints>
+            <connections>
+                <outlet property="tableView" destination="4Dl-mb-ZD0" id="jls-yY-YdX"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </collectionViewCell>
+    </objects>
+</document>
